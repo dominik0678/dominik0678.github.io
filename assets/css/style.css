@@ -1,0 +1,61 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Gesamtbreite der Seite erhöhen */
+.wrapper {
+  width: 1200px;
+}
+
+/* Sidebar links */
+header {
+  width: 300px;
+}
+
+/* Hauptinhalt rechts */
+section {
+  width: 820px;
+}
+
+/* Footer links passend zur Sidebar */
+footer {
+  width: 300px;
+}
+
+/* Bessere Lesbarkeit */
+body {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Etwas mehr Abstand im Inhalt */
+section {
+  padding-bottom: 50px;
+}
+
+/* Mobile Ansicht nicht kaputt machen */
+@media print, screen and (max-width: 1200px) {
+  .wrapper {
+    width: auto;
+    margin: 0 30px;
+  }
+
+  header,
+  section,
+  footer {
+    float: none;
+    position: static;
+    width: auto;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  .wrapper {
+    margin: 0 15px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
