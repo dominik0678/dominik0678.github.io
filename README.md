@@ -1,8 +1,8 @@
-# Portfolio Website – Dominik Waldburger
+# Dominik Waldburger
 
 Willkommen auf meiner persönlichen Portfolio-Website.
 
-Diese Website dient als zentrale Übersicht über meine technischen Interessen, ausgewählte Projekte und beruflichen Informationen. Sie richtet sich vor allem an Personen, die sich schnell einen Eindruck von meinem Profil als Informatiker EFZ Applikationsentwicklung machen möchten.
+Diese Website dient als kompakte Übersicht über mein technisches Profil, ausgewählte Projekte und berufliche Informationen. Der Fokus liegt auf Softwareentwicklung, technischer Analyse, Schnittstellen, Automatisierung und praxisnahen IT-Themen.
 
 ---
 
@@ -14,46 +14,59 @@ Diese Website dient als zentrale Übersicht über meine technischen Interessen, 
 
 ## Deutsch
 
-### Zweck der Website
+### Kurzprofil
 
-Diese Website ist mein persönliches Portfolio als Informatiker EFZ Applikationsentwicklung.
+Ich bin Informatiker EFZ Applikationsentwicklung und interessiere mich besonders für Softwareentwicklung, technische Analyse, Schnittstellen, Automatisierung und hardwarenahe Systeme.
 
-Sie zeigt ausgewählte Projekte, technische Erfahrungen und Informationen zu meinem beruflichen Profil. Der Fokus liegt auf Softwareentwicklung, technischer Analyse, Schnittstellen, Automatisierung und praxisnahen IT-Themen.
+Diese Website dient als zentrale Anlaufstelle für meine Projekte, technischen Interessen und beruflichen Informationen.
 
-Die Website soll einen kompakten Überblick geben und als zentrale Anlaufstelle für Bewerbungen, Projektlinks und weitere berufliche Informationen dienen.
+### Fokus
+
+- Softwareentwicklung
+- Applikationsentwicklung
+- Technische Analyse
+- Schnittstellen und Integration
+- Automatisierung
+- Hardwarenahe und industrielle IT-Themen
 
 ### Inhalt
 
-- Kurzprofil
 - Ausgewählte Projekte
 - Verwendete Technologien
+- Berufliches Profil
 - Kontaktmöglichkeiten
-- Links zu GitHub oder weiteren beruflichen Profilen
+- Links zu weiteren Profilen
 
 ---
 
 ## English
 
-### Purpose of this website
+### Short Profile
 
-This website is my personal portfolio as a Swiss Federal VET Diploma graduate in Application Development.
+I am a Swiss Federal VET Diploma graduate in Application Development with a strong interest in software development, technical analysis, interfaces, automation and hardware-related systems.
 
-It presents selected projects, technical experience and information about my professional profile. The focus is on software development, technical analysis, interfaces, automation and practical IT topics.
+This website serves as a central place for my projects, technical interests and professional information.
 
-The website is intended to provide a compact overview and serve as a central place for applications, project links and further professional information.
+### Focus
+
+- Software development
+- Application development
+- Technical analysis
+- Interfaces and integration
+- Automation
+- Hardware-related and industrial IT topics
 
 ### Content
 
-- Short profile
 - Selected projects
 - Technologies used
+- Professional profile
 - Contact options
-- Links to GitHub or other professional profiles
+- Links to other profiles
 
 ---
 
 ## Kontakt / Contact
 
-GitHub: [dominik0678](https://github.com/dominik0678)
-
+GitHub: [dominik0678](https://github.com/dominik0678)  
 E-Mail: dominik.waldburger06@gmail.com
