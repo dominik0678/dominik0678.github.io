@@ -1,11 +1,13 @@
-<div class="hero" markdown="1">
+<div class="hero">
 
-# Dominik Waldburger
+<h1>Dominik Waldburger</h1>
 
-**Informatiker EFZ Applikationsentwicklung**  
-Softwareentwicklung · Technische Analyse · Schnittstellen · Automatisierung
+<p><strong>Informatiker EFZ Applikationsentwicklung</strong><br>
+Softwareentwicklung · Technische Analyse · Schnittstellen · Automatisierung</p>
 
+<p>
 Ich interessiere mich für praxisnahe Softwarelösungen, saubere technische Analyse und Systeme, bei denen Software nicht isoliert betrachtet wird, sondern als Teil eines grösseren technischen Umfelds funktioniert.
+</p>
 
 <div class="button-row">
 <a href="#projekte" class="button">Projekte ansehen</a>
@@ -115,5 +117,3 @@ This website gives a compact overview of my technical profile, selected projects
 
 GitHub: [dominik0678](https://github.com/dominik0678)  
 E-Mail: [dominik.waldburger06@gmail.com](mailto:dominik.waldburger06@gmail.com)
-
-</div>
