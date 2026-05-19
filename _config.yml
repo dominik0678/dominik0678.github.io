@@ -1,3 +1,12 @@
+title: Portfolio
+description: >
+  Portfolio Website für Dominik Waldburger.
+  Informatiker EFZ Applikationsentwicklung mit Fokus auf Softwareentwicklung,
+  technische Analyse, Schnittstellen und praxisnahe IT-Themen.
+
 theme: jekyll-theme-minimal
-title: Portfolio Dominik Waldburger
-description: Portfolio Website für Dominik Waldburger / Portfolio website for Dominik Waldburger
+
+show_downloads: false
+
+github:
+  is_project_page: false
