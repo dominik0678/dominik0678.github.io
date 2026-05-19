@@ -3,42 +3,53 @@
 
 @import "{{ site.theme }}";
 
-/* Gesamtbreite der Seite erhöhen */
+/* Breiteres Layout für grosse Bildschirme */
 .wrapper {
-  width: 1200px;
+  width: min(88vw, 1450px);
+  margin: 0 auto;
 }
 
-/* Sidebar links */
+/* Linke Sidebar */
 header {
-  width: 300px;
+  width: 280px;
 }
 
-/* Hauptinhalt rechts */
+/* Hauptinhalt */
 section {
-  width: 820px;
+  width: calc(100% - 360px);
+  padding-bottom: 60px;
 }
 
-/* Footer links passend zur Sidebar */
+/* Footer passend zur Sidebar */
 footer {
-  width: 300px;
+  width: 280px;
 }
 
-/* Bessere Lesbarkeit */
+/* Lesbarkeit */
 body {
   font-size: 15px;
   line-height: 1.6;
 }
 
-/* Etwas mehr Abstand im Inhalt */
-section {
-  padding-bottom: 50px;
+/* Überschriften etwas sauberer */
+h1 {
+  font-size: 32px;
 }
 
-/* Mobile Ansicht nicht kaputt machen */
-@media print, screen and (max-width: 1200px) {
+h2 {
+  margin-top: 35px;
+}
+
+/* Links in der Sprachauswahl etwas sauberer verteilen */
+section p a {
+  margin-right: 80px;
+}
+
+/* Mobile / kleinere Screens */
+@media print, screen and (max-width: 960px) {
   .wrapper {
     width: auto;
-    margin: 0 30px;
+    margin: 0 25px;
   }
 
   header,
@@ -48,14 +59,22 @@ section {
     position: static;
     width: auto;
   }
+
+  header {
+    padding-right: 0;
+  }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 480px) {
   .wrapper {
     margin: 0 15px;
   }
 
   body {
     font-size: 14px;
+  }
+
+  h1 {
+    font-size: 26px;
   }
 }
