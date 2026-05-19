@@ -3,53 +3,221 @@
 
 @import "{{ site.theme }}";
 
-/* Breiteres Layout für grosse Bildschirme */
+/* ---------- Layout ---------- */
+
 .wrapper {
   width: min(88vw, 1450px);
   margin: 0 auto;
 }
 
-/* Linke Sidebar */
 header {
   width: 280px;
 }
 
-/* Hauptinhalt */
 section {
   width: calc(100% - 360px);
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
-/* Footer passend zur Sidebar */
 footer {
   width: 280px;
 }
 
-/* Lesbarkeit */
+/* ---------- Base ---------- */
+
 body {
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 1.65;
+  color: #2f3742;
+  background: #ffffff;
 }
 
-/* Überschriften etwas sauberer */
+section {
+  font-size: 15px;
+}
+
+p {
+  margin-bottom: 18px;
+}
+
+a {
+  color: #1f78b4;
+}
+
+a:hover {
+  color: #155f8f;
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  color: #1f2933;
+}
+
 h1 {
-  font-size: 32px;
+  font-size: 36px;
+  line-height: 1.15;
+  margin-bottom: 12px;
 }
 
 h2 {
-  margin-top: 35px;
+  font-size: 24px;
+  margin-top: 42px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-/* Links in der Sprachauswahl etwas sauberer verteilen */
-section p a {
-  margin-right: 80px;
+h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
-/* Mobile / kleinere Screens */
+hr {
+  border: 0;
+  height: 1px;
+  background: #e5e7eb;
+  margin: 32px 0;
+}
+
+/* ---------- Sidebar ---------- */
+
+header h1 {
+  font-size: 28px;
+  color: #1f78b4;
+}
+
+header p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  padding: 34px 36px;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+  margin-bottom: 34px;
+}
+
+.hero p {
+  max-width: 900px;
+  color: #4b5563;
+}
+
+.button-row {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: #1f78b4;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid #1f78b4;
+}
+
+.button:hover {
+  background: #155f8f;
+  border-color: #155f8f;
+}
+
+.button.secondary {
+  background: #ffffff;
+  color: #1f78b4 !important;
+}
+
+/* ---------- Cards ---------- */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.card {
+  padding: 22px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+}
+
+.card p {
+  margin-bottom: 0;
+  color: #4b5563;
+}
+
+/* ---------- Projects ---------- */
+
+.project-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.project {
+  padding: 22px;
+  border-left: 4px solid #1f78b4;
+  border-radius: 14px;
+  background: #f8fafc;
+  border-top: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.project p:last-child {
+  margin-bottom: 0;
+}
+
+.project.placeholder {
+  border-left-color: #9ca3af;
+}
+
+/* ---------- Tags ---------- */
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.tag-list span {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #eef6fb;
+  color: #1f5f85;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ---------- Lists ---------- */
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ---------- Mobile ---------- */
+
 @media print, screen and (max-width: 960px) {
   .wrapper {
     width: auto;
-    margin: 0 25px;
+    margin: 0 24px;
   }
 
   header,
@@ -62,12 +230,17 @@ section p a {
 
   header {
     padding-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 560px) {
   .wrapper {
-    margin: 0 15px;
+    margin: 0 16px;
   }
 
   body {
@@ -75,6 +248,18 @@ section p a {
   }
 
   h1 {
-    font-size: 26px;
+    font-size: 29px;
+  }
+
+  .hero {
+    padding: 24px;
+  }
+
+  .button-row {
+    flex-direction: column;
+  }
+
+  .button {
+    text-align: center;
   }
 }
