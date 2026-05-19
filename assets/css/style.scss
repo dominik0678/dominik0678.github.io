@@ -6,21 +6,29 @@
 /* ---------- Layout ---------- */
 
 .wrapper {
-  width: min(88vw, 1450px);
+  width: min(90vw, 1500px);
   margin: 0 auto;
 }
 
+/* Linke Sidebar breiter */
 header {
-  width: 280px;
+  width: 370px;
 }
 
+/* Hauptinhalt passend zur breiteren Sidebar */
 section {
-  width: calc(100% - 360px);
+  width: calc(100% - 480px);
   padding-bottom: 80px;
 }
 
+/* Footer passend zur Sidebar */
 footer {
-  width: 280px;
+  width: 370px;
+}
+
+header p {
+  max-width: 350px;
+  line-height: 1.55;
 }
 
 /* ---------- Base ---------- */
